@@ -1,0 +1,14 @@
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de despliegue temporales
+node_modules/
+dist/
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
