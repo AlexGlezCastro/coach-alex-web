@@ -1,1 +1,79 @@
-/* CSS generado previamente con mejoras visuales y botón WhatsApp */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 7rem 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1.neon-text-green {
+    font-size: 2.5rem;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px rgba(0, 255, 0, 0.7), 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.neon-button {
+    background-color: #00ff00;
+    color: #000;
+    font-weight: bold;
+    padding: 0.9rem 2.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 8px #00ff00, 0 0 15px rgba(0, 255, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.neon-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #00ff00, 0 0 25px rgba(0, 255, 0, 0.8);
+}
+
+section.form-section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000;
+    font-size: 0.9rem;
+    color: #aaa;
+}
