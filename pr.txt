@@ -1,0 +1,7 @@
+⚡ Optimize hero image size by using WebP format
+
+💡 **What:** Converted the background hero image `957839C2-8121-4A2E-9841-9E62BFAD39CD.JPG` to WebP format (`957839C2-8121-4A2E-9841-9E62BFAD39CD.webp`) and updated the reference in `index.html`.
+
+🎯 **Why:** To improve page load performance by serving a smaller, next-generation image format.
+
+📊 **Measured Improvement:** The file size was reduced from 506,083 bytes (baseline) to 246,410 bytes, achieving a 51.3% reduction in payload size for this asset.
